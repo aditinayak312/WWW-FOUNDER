@@ -1,0 +1,113 @@
+body{
+    text-align:center;
+    margin:0;
+    padding-top:800px;
+}
+.profile{
+width:175px;
+margin-bottom:50px;
+border-radius:50%;
+}
+#welcomesec{
+    position:absolute;
+    overflow:hidden;
+    height:800px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:.83;
+    background:linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display:table;
+    width: 100%;
+    height:100%;
+
+}
+.innerwel{
+    display:table-cell;
+    position:relative;
+    vertical-align: middle;
+}
+#bio{
+    padding:50px;
+    font-size: 42px;
+    text-align: center;
+}
+.line{
+    height:6px;
+    width:70px;
+    background-color: black;
+    margin:8px auto;
+}
+p{
+    max-width:450px;
+    margin:25px auto;
+    font-size:18px;
+    line-height:1.3;
+    text-align: center;
+}
+h1{
+    font-size:40px;
+    line-height:1.2;
+    font-weight: bold;
+}
+#Name{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Dancing Script', cursive;
+}
+.menu{
+    list-style:none;
+    position:fixed;
+    top:0px;
+    width:100%;
+    background:white;
+    margin-top:0px;
+    z-index:30;
+    cursor:pointer;
+    font-family: 'Indie Flower', cursive;  
+}
+.items{
+    display:inline;
+    padding-right:30px;
+    padding-left:30px;
+    font-size:30px;
+    color: darkred;
+}
+.items:hover{
+    background:linear-gradient(#FFFF00 0%, #FF7F50 100%);
+    font-size:40px;
+    text-decoration:underline;
+}
+h2{
+    font-size:30px;
+    line-height:1.2;
+    font-family: 'Reggae One', cursive;
+}
+a{
+    text-decoration:none;
+    color: indigo;
+    text-shadow:3px 3px black;
+}
+#writings a{
+    text-decoration:underline!important;
+    color:darkblue!important;
+    text-shadow:none!important;
+}
+.write:hover{
+    color:brown;
+    
+}
+.gmail h3{
+    display: inline;
+}
+#contact{
+    background: firebrick;
+}
+.gmail a {
+    color:aliceblue ;
+    text-shadow:none;
+}
+#contact iframe{
+    width:100%;
+}
